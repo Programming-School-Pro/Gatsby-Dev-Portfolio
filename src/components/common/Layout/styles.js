@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
+  * {
+    transition: all 0.5s;
+  }
   html {
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
